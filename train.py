@@ -13,8 +13,8 @@ from collections import defaultdict
 # ================================
 # 2. PATH
 # ================================
-train_dir = r"C:\Users\KIIT0001\Documents\dataset\train"
-test_dir  = r"C:\Users\KIIT0001\Documents\dataset\test"
+train_dir = "dataset/train"
+test_dir = "dataset/test"
 
 # ================================
 # 3. TRANSFORMS
