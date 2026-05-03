@@ -8,14 +8,23 @@ This project detects psoriasis using deep learning and estimates severity using 
 - Image preprocessing and augmentation
 - Lesion segmentation using LAB color space
 
-## 📊 Dataset
-- Psoriasis: 820 images
-- Normal: 1651 images
-- Balanced sampling applied
-
 ## 🧠 Model
 - Pretrained ResNet18 (Transfer Learning)
 - Frozen backbone, trained final layer
+
+## 📊 Dataset
+
+This project uses a dataset of psoriasis and normal skin images.
+
+- Psoriasis images: ~820
+- Normal images: ~1651
+
+Due to size and licensing constraints, the dataset is not included in this repository.
+
+You can use your own dataset or publicly available datasets such as:
+- ISIC Skin Disease Dataset
+- Kaggle Skin Disease datasets
+
 
 ## 📈 Results
 - Accuracy: ~90%
